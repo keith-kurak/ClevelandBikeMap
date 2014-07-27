@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C5A44A19854406003676E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5A44919854406003676E6 /* Foundation.framework */; };
+		53C5A44C19854406003676E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5A44B19854406003676E6 /* CoreGraphics.framework */; };
+		53C5A44E19854406003676E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5A44D19854406003676E6 /* UIKit.framework */; };
+		53C5A45419854406003676E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53C5A45219854406003676E6 /* InfoPlist.strings */; };
+		53C5A45619854406003676E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A45519854406003676E6 /* main.m */; };
+		53C5A45A19854406003676E6 /* CBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A45919854406003676E6 /* CBMAppDelegate.m */; };
+		53C5A45C19854406003676E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C5A45B19854406003676E6 /* Images.xcassets */; };
+		53C5A46319854406003676E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5A46219854406003676E6 /* XCTest.framework */; };
+		53C5A46419854406003676E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5A44919854406003676E6 /* Foundation.framework */; };
+		53C5A46519854406003676E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5A44D19854406003676E6 /* UIKit.framework */; };
+		53C5A46D19854406003676E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53C5A46B19854406003676E6 /* InfoPlist.strings */; };
+		53C5A46F19854406003676E6 /* ClevelandBikeMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A46E19854406003676E6 /* ClevelandBikeMapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C5A46619854406003676E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C5A43E19854406003676E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C5A44519854406003676E6;
+			remoteInfo = ClevelandBikeMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53C5A44619854406003676E6 /* ClevelandBikeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClevelandBikeMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C5A44919854406003676E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53C5A44B19854406003676E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53C5A44D19854406003676E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53C5A45119854406003676E6 /* ClevelandBikeMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClevelandBikeMap-Info.plist"; sourceTree = "<group>"; };
+		53C5A45319854406003676E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53C5A45519854406003676E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53C5A45719854406003676E6 /* ClevelandBikeMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClevelandBikeMap-Prefix.pch"; sourceTree = "<group>"; };
+		53C5A45819854406003676E6 /* CBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBMAppDelegate.h; sourceTree = "<group>"; };
+		53C5A45919854406003676E6 /* CBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBMAppDelegate.m; sourceTree = "<group>"; };
+		53C5A45B19854406003676E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53C5A46119854406003676E6 /* ClevelandBikeMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClevelandBikeMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C5A46219854406003676E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53C5A46A19854406003676E6 /* ClevelandBikeMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClevelandBikeMapTests-Info.plist"; sourceTree = "<group>"; };
+		53C5A46C19854406003676E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53C5A46E19854406003676E6 /* ClevelandBikeMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClevelandBikeMapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C5A44319854406003676E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C5A44C19854406003676E6 /* CoreGraphics.framework in Frameworks */,
+				53C5A44E19854406003676E6 /* UIKit.framework in Frameworks */,
+				53C5A44A19854406003676E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C5A45E19854406003676E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C5A46319854406003676E6 /* XCTest.framework in Frameworks */,
+				53C5A46519854406003676E6 /* UIKit.framework in Frameworks */,
+				53C5A46419854406003676E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C5A43D19854406003676E6 = {
+			isa = PBXGroup;
+			children = (
+				53C5A44F19854406003676E6 /* ClevelandBikeMap */,
+				53C5A46819854406003676E6 /* ClevelandBikeMapTests */,
+				53C5A44819854406003676E6 /* Frameworks */,
+				53C5A44719854406003676E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53C5A44719854406003676E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A44619854406003676E6 /* ClevelandBikeMap.app */,
+				53C5A46119854406003676E6 /* ClevelandBikeMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C5A44819854406003676E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A44919854406003676E6 /* Foundation.framework */,
+				53C5A44B19854406003676E6 /* CoreGraphics.framework */,
+				53C5A44D19854406003676E6 /* UIKit.framework */,
+				53C5A46219854406003676E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53C5A44F19854406003676E6 /* ClevelandBikeMap */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A45819854406003676E6 /* CBMAppDelegate.h */,
+				53C5A45919854406003676E6 /* CBMAppDelegate.m */,
+				53C5A45B19854406003676E6 /* Images.xcassets */,
+				53C5A45019854406003676E6 /* Supporting Files */,
+			);
+			path = ClevelandBikeMap;
+			sourceTree = "<group>";
+		};
+		53C5A45019854406003676E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A45119854406003676E6 /* ClevelandBikeMap-Info.plist */,
+				53C5A45219854406003676E6 /* InfoPlist.strings */,
+				53C5A45519854406003676E6 /* main.m */,
+				53C5A45719854406003676E6 /* ClevelandBikeMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53C5A46819854406003676E6 /* ClevelandBikeMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A46E19854406003676E6 /* ClevelandBikeMapTests.m */,
+				53C5A46919854406003676E6 /* Supporting Files */,
+			);
+			path = ClevelandBikeMapTests;
+			sourceTree = "<group>";
+		};
+		53C5A46919854406003676E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A46A19854406003676E6 /* ClevelandBikeMapTests-Info.plist */,
+				53C5A46B19854406003676E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C5A44519854406003676E6 /* ClevelandBikeMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C5A47219854406003676E6 /* Build configuration list for PBXNativeTarget "ClevelandBikeMap" */;
+			buildPhases = (
+				53C5A44219854406003676E6 /* Sources */,
+				53C5A44319854406003676E6 /* Frameworks */,
+				53C5A44419854406003676E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClevelandBikeMap;
+			productName = ClevelandBikeMap;
+			productReference = 53C5A44619854406003676E6 /* ClevelandBikeMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53C5A46019854406003676E6 /* ClevelandBikeMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C5A47519854406003676E6 /* Build configuration list for PBXNativeTarget "ClevelandBikeMapTests" */;
+			buildPhases = (
+				53C5A45D19854406003676E6 /* Sources */,
+				53C5A45E19854406003676E6 /* Frameworks */,
+				53C5A45F19854406003676E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C5A46719854406003676E6 /* PBXTargetDependency */,
+			);
+			name = ClevelandBikeMapTests;
+			productName = ClevelandBikeMapTests;
+			productReference = 53C5A46119854406003676E6 /* ClevelandBikeMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C5A43E19854406003676E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CBM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Keith Kurak";
+				TargetAttributes = {
+					53C5A46019854406003676E6 = {
+						TestTargetID = 53C5A44519854406003676E6;
+					};
+				};
+			};
+			buildConfigurationList = 53C5A44119854406003676E6 /* Build configuration list for PBXProject "ClevelandBikeMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53C5A43D19854406003676E6;
+			productRefGroup = 53C5A44719854406003676E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C5A44519854406003676E6 /* ClevelandBikeMap */,
+				53C5A46019854406003676E6 /* ClevelandBikeMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C5A44419854406003676E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C5A45419854406003676E6 /* InfoPlist.strings in Resources */,
+				53C5A45C19854406003676E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C5A45F19854406003676E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C5A46D19854406003676E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C5A44219854406003676E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C5A45619854406003676E6 /* main.m in Sources */,
+				53C5A45A19854406003676E6 /* CBMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C5A45D19854406003676E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C5A46F19854406003676E6 /* ClevelandBikeMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53C5A46719854406003676E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C5A44519854406003676E6 /* ClevelandBikeMap */;
+			targetProxy = 53C5A46619854406003676E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53C5A45219854406003676E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C5A45319854406003676E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53C5A46B19854406003676E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C5A46C19854406003676E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C5A47019854406003676E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53C5A47119854406003676E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C5A47319854406003676E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClevelandBikeMap/ClevelandBikeMap-Prefix.pch";
+				INFOPLIST_FILE = "ClevelandBikeMap/ClevelandBikeMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53C5A47419854406003676E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClevelandBikeMap/ClevelandBikeMap-Prefix.pch";
+				INFOPLIST_FILE = "ClevelandBikeMap/ClevelandBikeMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53C5A47619854406003676E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClevelandBikeMap.app/ClevelandBikeMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClevelandBikeMap/ClevelandBikeMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClevelandBikeMapTests/ClevelandBikeMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53C5A47719854406003676E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClevelandBikeMap.app/ClevelandBikeMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClevelandBikeMap/ClevelandBikeMap-Prefix.pch";
+				INFOPLIST_FILE = "ClevelandBikeMapTests/ClevelandBikeMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C5A44119854406003676E6 /* Build configuration list for PBXProject "ClevelandBikeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C5A47019854406003676E6 /* Debug */,
+				53C5A47119854406003676E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C5A47219854406003676E6 /* Build configuration list for PBXNativeTarget "ClevelandBikeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C5A47319854406003676E6 /* Debug */,
+				53C5A47419854406003676E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53C5A47519854406003676E6 /* Build configuration list for PBXNativeTarget "ClevelandBikeMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C5A47619854406003676E6 /* Debug */,
+				53C5A47719854406003676E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C5A43E19854406003676E6 /* Project object */;
+}
